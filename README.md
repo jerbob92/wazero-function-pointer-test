@@ -1,0 +1,1 @@
+emcc main.c -o test.html -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 -g -s STANDALONE_WASM=1 -s LLD_REPORT_UNDEFINED -s EXPORTED_FUNCTIONS=_malloc --no-entry
